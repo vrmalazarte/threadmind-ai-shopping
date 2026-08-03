@@ -5,6 +5,8 @@ import { Container } from "@/components/layout/Container";
 
 import { HeroVisual } from "./HeroVisual";
 
+import { homeConfig } from "@/config/home";
+
 export function Hero() {
   return (
     <section className="py-24">
@@ -26,13 +28,17 @@ export function Hero() {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <Button asChild size="lg">
-                <Link href="/products">Start Shopping</Link>
-              </Button>
+                <Button asChild size="lg">
+                <Link href={homeConfig.hero.primaryAction.href}>
+                    {homeConfig.hero.primaryAction.label}
+                </Link>
+                </Button>
 
-              <Button asChild variant="outline" size="lg">
-                <Link href="/ai">Try AI Stylist</Link>
-              </Button>
+                <Button asChild variant="outline" size="lg">
+                <Link href={homeConfig.hero.secondaryAction.href}>
+                    {homeConfig.hero.secondaryAction.label}
+                </Link>
+                </Button>
             </div>
           </div>
 
