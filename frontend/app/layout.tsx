@@ -16,9 +16,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ThreadMind",
+  title: {
+    default: "ThreadMind",
+    template: "%s | ThreadMind",
+  },
   description:
-    "AI-powered clothing store with semantic search and personalized recommendations.",
+    "Discover clothing through AI-powered search, personalized recommendations, and intelligent outfit generation.",
 };
 
 export default function RootLayout({
