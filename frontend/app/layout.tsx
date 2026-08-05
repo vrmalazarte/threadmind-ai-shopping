@@ -16,12 +16,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://threadmind.ai"),
   title: {
     default: "ThreadMind",
     template: "%s | ThreadMind",
   },
   description:
     "Discover clothing through AI-powered search, personalized recommendations, and intelligent outfit generation.",
+  applicationName: "ThreadMind",
+  keywords: [
+    "AI",
+    "Fashion",
+    "Clothing",
+    "Semantic Search",
+    "Outfit Generator",
+    "E-commerce",
+  ],
 };
 
 export default function RootLayout({
