@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     "Outfit Generator",
     "E-commerce",
   ],
+    icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
