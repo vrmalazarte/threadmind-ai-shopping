@@ -1,23 +1,6 @@
 import { Section } from "@/components/shared/Section";
 import { SectionHeading } from "@/components/shared/SectionHeading";
-
-const capabilities = [
-  {
-    title: "Semantic Search",
-    description:
-      "Search naturally using phrases like 'black oversized hoodie for rainy weather'.",
-  },
-  {
-    title: "Personalized Recommendations",
-    description:
-      "Receive clothing suggestions based on your preferences and shopping history.",
-  },
-  {
-    title: "AI Outfit Generator",
-    description:
-      "Generate complete outfits for different occasions and seasons.",
-  },
-];
+import { homeConfig } from "@/config/home";
 
 export function AiCapabilities() {
   return (
@@ -28,7 +11,7 @@ export function AiCapabilities() {
       />
 
       <div className="mt-16 grid gap-6 md:grid-cols-3">
-        {capabilities.map((capability) => (
+        {homeConfig.aiCapabilities.map((capability) => (
           <div
             key={capability.title}
             className="rounded-2xl border p-6 transition-shadow hover:shadow-md"

@@ -13,4 +13,22 @@ export const homeConfig = {
       href: "/ai",
     },
   },
+
+  aiCapabilities: [
+    {
+      title: "Semantic Search",
+      description:
+        "Search naturally using phrases like 'black oversized hoodie for rainy weather'.",
+    },
+    {
+      title: "Personalized Recommendations",
+      description:
+        "Receive clothing suggestions based on your preferences and shopping history.",
+    },
+    {
+      title: "AI Outfit Generator",
+      description:
+        "Generate complete outfits for different occasions and seasons.",
+    },
+  ],
 } as const;
