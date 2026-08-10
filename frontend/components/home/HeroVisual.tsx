@@ -8,9 +8,7 @@ export function HeroVisual() {
           <span className="text-3xl">✨</span>
         </div>
 
-        <h3 className="text-xl font-semibold">
-          AI Outfit Preview
-        </h3>
+        <h3 className="text-xl font-semibold">AI Outfit Preview</h3>
 
         <p className="mt-3 max-w-xs text-sm text-muted-foreground">
           Future AI-generated outfit recommendations will be displayed here.

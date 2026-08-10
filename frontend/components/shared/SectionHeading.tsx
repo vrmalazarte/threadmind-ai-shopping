@@ -4,11 +4,7 @@ type SectionHeadingProps = {
   description?: string;
 };
 
-export function SectionHeading({
-  eyebrow,
-  title,
-  description,
-}: SectionHeadingProps) {
+export function SectionHeading({ eyebrow, title, description }: SectionHeadingProps) {
   return (
     <div className="max-w-2xl">
       {eyebrow && (
@@ -17,15 +13,9 @@ export function SectionHeading({
         </p>
       )}
 
-      <h2 className="mt-4 text-4xl font-bold tracking-tight">
-        {title}
-      </h2>
+      <h2 className="mt-4 text-4xl font-bold tracking-tight">{title}</h2>
 
-      {description && (
-        <p className="mt-6 text-lg text-muted-foreground">
-          {description}
-        </p>
-      )}
+      {description && <p className="mt-6 text-lg text-muted-foreground">{description}</p>}
     </div>
   );
 }

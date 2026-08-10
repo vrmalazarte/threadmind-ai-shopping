@@ -24,15 +24,8 @@ export const metadata: Metadata = {
   description:
     "Discover clothing through AI-powered search, personalized recommendations, and intelligent outfit generation.",
   applicationName: "ThreadMind",
-  keywords: [
-    "AI",
-    "Fashion",
-    "Clothing",
-    "Semantic Search",
-    "Outfit Generator",
-    "E-commerce",
-  ],
-    icons: {
+  keywords: ["AI", "Fashion", "Clothing", "Semantic Search", "Outfit Generator", "E-commerce"],
+  icons: {
     icon: "/favicon.ico",
   },
 };
@@ -43,10 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full">
         <MainLayout>{children}</MainLayout>
       </body>

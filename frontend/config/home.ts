@@ -22,13 +22,11 @@ export const homeConfig = {
     },
     {
       title: "Personalized Recommendations",
-      description:
-        "Receive clothing suggestions based on your preferences and shopping history.",
+      description: "Receive clothing suggestions based on your preferences and shopping history.",
     },
     {
       title: "AI Outfit Generator",
-      description:
-        "Generate complete outfits for different occasions and seasons.",
+      description: "Generate complete outfits for different occasions and seasons.",
     },
   ],
 } as const;

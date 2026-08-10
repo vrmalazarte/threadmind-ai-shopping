@@ -22,10 +22,10 @@ export function Navigation() {
         {navigationLinks.map((link) => (
           <li key={link.href}>
             <Link
-                href={link.href}
-                className="text-sm font-medium transition-colors hover:text-primary"
-                >
-                {link.label}
+              href={link.href}
+              className="text-sm font-medium transition-colors hover:text-primary"
+            >
+              {link.label}
             </Link>
           </li>
         ))}
