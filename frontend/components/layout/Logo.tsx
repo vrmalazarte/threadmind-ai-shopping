@@ -1,7 +1,3 @@
 export function Logo() {
-  return (
-    <span className="text-xl font-bold tracking-tight">
-      ThreadMind
-    </span>
-  );
+  return <span className="text-xl font-bold tracking-tight">ThreadMind</span>;
 }

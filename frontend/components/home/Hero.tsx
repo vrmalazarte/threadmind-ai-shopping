@@ -22,23 +22,22 @@ export function Hero() {
             </h1>
 
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              ThreadMind combines semantic search, personalized
-              recommendations, and intelligent outfit generation to help you
-              find clothing that matches your style.
+              ThreadMind combines semantic search, personalized recommendations, and intelligent
+              outfit generation to help you find clothing that matches your style.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
-                <Button asChild size="lg">
+              <Button asChild size="lg">
                 <Link href={homeConfig.hero.primaryAction.href}>
-                    {homeConfig.hero.primaryAction.label}
+                  {homeConfig.hero.primaryAction.label}
                 </Link>
-                </Button>
+              </Button>
 
-                <Button asChild variant="outline" size="lg">
+              <Button asChild variant="outline" size="lg">
                 <Link href={homeConfig.hero.secondaryAction.href}>
-                    {homeConfig.hero.secondaryAction.label}
+                  {homeConfig.hero.secondaryAction.label}
                 </Link>
-                </Button>
+              </Button>
             </div>
           </div>
 
