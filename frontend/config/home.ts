@@ -19,14 +19,19 @@ export const homeConfig = {
       title: "Semantic Search",
       description:
         "Search naturally using phrases like 'black oversized hoodie for rainy weather'.",
+      icon: "search",
     },
     {
       title: "Personalized Recommendations",
-      description: "Receive clothing suggestions based on your preferences and shopping history.",
+      description:
+        "Receive clothing suggestions based on your preferences and shopping history.",
+      icon: "sparkles",
     },
     {
       title: "AI Outfit Generator",
-      description: "Generate complete outfits for different occasions and seasons.",
+      description:
+        "Generate complete outfits for different occasions and seasons.",
+      icon: "shirt",
     },
   ],
 } as const;
